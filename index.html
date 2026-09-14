@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BMW MOTORS</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        header {
+    background-color: lightblue;
+    padding: 15px;
+    position: relative;
+}
+
+        .logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+        header h1 {
+            text-align: center;
+            margin: 0;
+        }
+
+        header h2 {
+            text-align: center;
+            margin: 5px 0 15px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 30px auto;
+        }
+
+        .pictures {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .picture-box {
+            flex: 1 1 300px;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .picture-box img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .picture-box .caption {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .information {
+            margin-top: 30px;
+        }
+
+        .information p {
+            background-color: lightblue;
+            padding: 15px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: lightblue;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media screen and (max-width: 768px) {
+
+            nav {
+                gap: 20px;
+            }
+
+            .pictures {
+                flex-direction: column;
+                align-items: center;
+                gap: 25px;
+            }
+
+            .picture-box {
+                width: 100%;
+                max-width: 400px;
+            }
+
+            .picture-box img {
+                width: 100%;
+                height: auto;
+            }
+
+            .information p {
+                width: 100%;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            header h2 {
+                font-size: 21px;
+            }
+        }
+
+        @media screen and (max-width: 450px) {
+
+            nav {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+
+            header h2 {
+                font-size: 18px;
+            }
+
+            .container {
+                width: 95%;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="logo.png" alt="BMW Logo" class="logo">
+
+        <h1>THE LAND OF MOTORS</h1>
+
+        <h2>Bavarian Motor Works</h2>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="pictures">
+
+            <div class="picture-box">
+                <img src="bm.jpg" alt="BMW vehicle">
+                <div class="caption">
+                    COME GET YOURS, COME NOW!!!
+                </div>
+            </div>
+
+
+            <div class="picture-box">
+                <img src="mybm.jpg" alt="BMW vehicle">
+                <div class="caption">
+                    GET THE LATEST EDITION
+                </div>
+            </div>
+
+
+            <div class="picture-box">
+                <img src="oneday.jpg" alt="BMW vehicle">
+                <div class="caption">
+                    BEST QUALITY WITH BETTER PRICES
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="information">
+
+            <p>
+                BMW is a German automobile company known for producing
+                luxury cars and motorcycles. The company is famous for
+                combining elegant design, powerful performance, advanced
+                technology, and comfort. BMW vehicles are often recognized
+                by their distinctive kidney-shaped grille and sporty
+                appearance.
+            </p>
+
+            <p>
+                BMW motors are known for their high quality, strong
+                performance, advanced engineering, and luxurious design.
+                Over the years, BMW has developed many successful models,
+                including the BMW 3 Series, BMW 5 Series, and BMW 7 Series.
+                BMW continues to improve its engines and vehicle designs
+                with each generation.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        @mafekamafeka
+    </footer>
+
+</body>
+</html>

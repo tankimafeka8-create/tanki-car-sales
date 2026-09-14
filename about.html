@@ -1,0 +1,276 @@
+<html>
+<head>
+
+	<a href="about.html" class="about">About</a>
+   <a href="index.html" class="home">Home</a>
+   <a href="contact.html" class="contact">Contact</a>
+
+
+
+	<center><h1 style="background-color: lightblue;">BMW MOTORS</h1></center>
+
+
+	<center><table style="background-color: lightblue;" border="1"></center>
+
+		<tr>
+
+			<th>Name Of The Vehicle</th>
+		    <th>Year</th>
+		    <th>Amount</th>
+
+		</tr>
+		<tr>
+
+		    <td>BMW 330i Sedan</td> 
+		    <td>2020</td>
+		    <td>$40,750</td> 
+        </tr>
+
+        <tr>
+
+            <td>BMW M3 Sedan</td> 
+            <td>2021</td>
+            <td>$69,900</td> 
+
+        </tr>
+        
+        <tr>
+
+           <td>BMW 7 Series 740i Sedan</td> 
+           <td>2020</td>
+           <td>$87,445</td> 
+           
+        </tr> 
+
+        <table>
+        	<!-- your table -->
+        </table>
+
+        <div class="boxes">
+            <div class="box1">
+                <h2>A</h2>
+                <p>Lesotho</p>
+                <p>Portugal</p>
+                <p>USA</p>
+
+            </div>
+
+            <div class="box2">
+               <h3>B</h3>
+               <p>Ukraine</p>
+               <p>Iran</p>
+               <p>Russia</p>
+
+            </div>
+
+            <div class="box3">
+                <h4>C</h4>
+                <p>France</p>
+                <p>Spain</p>
+                <p>Norway</p>
+
+            </div>
+
+        </div>
+
+ <h2 style="background-color:lightblue;">Purchase a BMW</h2>
+ 
+ <form style="background-color: lightblue;">
+     
+     <label>Select Vehicle</label>
+     <select>
+         <option>BMW 330i Sedan</option>
+         <option>BMW M3 Sedan</option>
+         <option>BMW 7 Series 740i Sedan</option>
+
+     </select>
+     <br><br>
+
+     <label>Full Name:</label>
+     <input type="text"placeholder ="enter your name">
+
+
+     <br><br>
+
+     <label>Phone Number:</label>
+     <input type="tel"placeholder ="enter your Phone Number">
+
+     <br><br>
+     <label>Email:</label>
+     <input type="Email" placeholder="enter your Email">
+
+     <br><br>
+     <label>Payment Method:</label>
+     <select>
+         <option>Bank Transfer</option>
+         <option>Mobile Money</option>
+         <option>Cash</option>
+     </select>
+
+     <br><br>
+     <button type="submit">Purchase Car</button>
+
+ </form>       
+
+<p style="background-color:lightblue;">BMW, which stands for Bayerische Motoren Werke (Bavarian Motor Works), is a German automobile and motorcycle company. Its history dates back to 1916, and its headquarters are located in Munich, Germany. BMW originally had roots in aviation-related companies before becoming known for producing motorcycles and automobiles. Today, the BMW Group includes the BMW, MINI, Rolls-Royce and BMW Motorrad brands.</p>
+
+
+<p style="background-color:lightblue;">BMW operates on a global scale, producing vehicles at more than 30 production sites worldwide and selling its products in more than 140 countries. Its operations extend across Europe, North America, Asia, Africa and other regions. For example, BMW has major production facilities in Germany, the United States, China, South Africa and the United Kingdom, making it a truly international automotive company.</p>        
+
+
+
+<body>
+
+<style>
+
+    table {
+    width: 100%;
+}
+
+td, th {
+    padding: 20px;
+    font-size: 20px;
+}
+	
+
+   .about {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+     }
+   .home{
+    	position: absolute;
+    	right: 50px;
+    	top: 50px;
+    }
+
+   .home{
+    	margin-top: -40;
+    }
+
+   .home{
+    	margin-right: 80;
+    }
+
+    .about{
+    	margin-right: 80;
+    }
+    .about{
+        margin-top: 10;
+    }
+
+    .contact{
+        position: absolute;
+        right: 17px;
+        top: 10px;
+    }
+
+    
+    .boxes{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .box1, .box2, .box3 {
+        width: 30%;
+        height: 200px;
+        box-sizing: border-box;
+    }
+    .box1{
+        background-color: lightblue;
+    }
+    .box2{
+        background-color: lightblue;
+    }
+    .box3{
+        background-color: lightblue;
+    }
+
+    @media screen and (max-width: 768px) {
+
+    table {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    td, th {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .box1, .box2, .box3 {
+        width: 100%;
+        height: 200px;
+        box-sizing: border-box;
+    }
+
+    form {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    input, select {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    p {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .about {
+        right: 20px;
+        top: 10px;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .home {
+        right: 90px;
+        top: 10px;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .contact {
+        right: 20px;
+        top: 50px;
+    }
+
+}
+  
+
+
+
+
+</style>	
+
+
+
+
+	
+   
+
+
+
+
+
+
+
+
+
+
+</body>	
+</head>
+</html>
